@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { use, useState } from "react";
+import React, {  useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
@@ -53,7 +53,7 @@ export default function Login() {
         value={user.password}
         onChange={(e) => setUser({ ...user, password: e.target.value })}
         placeholder="password"
-        type="text"
+        type="password"
       />
 
       <button

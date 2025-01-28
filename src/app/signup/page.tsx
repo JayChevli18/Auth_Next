@@ -74,7 +74,7 @@ export default function Signup() {
             value={user.password}
             onChange={(e)=>setUser({...user, password:e.target.value})}
             placeholder="password"
-            type="text"
+            type="password"
         />
 
         <button
